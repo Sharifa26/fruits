@@ -5,12 +5,12 @@ const Sequelize = require('sequelize');
 const basename = path.basename(__filename);
 const db = {};
 
-config = {
-	host: 'rds-mysql-personal-projects.cjosuay8s59p.ap-south-1.rds.amazonaws.com',
-	user: 'admin',
-	password: 'vajl8lrIstOvuciWRl?!',
-	database: 'personal_projects'
-}
+  config = {
+	host: 'YOUR_HOST',
+	user: 'YOUR_USER_ID',
+	password: 'YOUR_PASSWORD',
+	database: 'YOUR_DATABASE'
+   }
 
 const sequelize = new Sequelize(config.database, config.user, config.password, {
 	host: config.host,
