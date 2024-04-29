@@ -161,3 +161,22 @@ Content-Type: application/json
     }
 }
 ```
+
+### DELETE /v2/fruit/:fruitId
+
+Remove a specific fruit by ID.
+
+*Example response:*
+
+
+HTTP/1.1 200 OK
+
+Content-Type: application/json
+
+```
+{
+    "success": true,
+    "message": "fruit deleted successfully",
+    "result": {}
+}
+```
