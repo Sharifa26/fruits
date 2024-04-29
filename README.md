@@ -7,7 +7,7 @@ This is a RESTful API for fruits, built using Node.js, Express, and MySql. The A
 
 1. Clone the repository:
 
-   HTTPS: git clone https://github.comSharifa26/fruits.git
+   HTTPS: git clone https://github.com/Sharifa26/fruits.git
    
    SSH: git clone git@github.com:Sharifa26/fruits.git
 
